@@ -1,0 +1,50 @@
+.extras-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 5rem 1rem;
+}
+
+.extras-wrapper p {
+	width: 60%;
+	text-align: center;
+}
+
+.extras-wrapper h1 {
+	font-size: 1.7rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+.extras-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+.extras-list li {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.extras-list li h3 {
+	font-weight: 500;
+}
+.extras-list li p {
+	text-align: center;
+	width: 90%;
+}
+
+.extras-list li img {
+	width: 8rem;
+	height: auto;
+}
+.extras-list li a {
+	color: #006241;
+}
+
+.extras-list li a:hover {
+	text-decoration: none;
+}

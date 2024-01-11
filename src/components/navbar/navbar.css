@@ -1,0 +1,98 @@
+.navbar-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: inherit;
+	padding: 0rem 2rem;
+}
+li {
+	list-style: none;
+}
+
+.menu-item.active {
+	border-bottom: 10px solid #006241;
+}
+
+/* .menu-item.active:hover {
+	border-bottom: 10px solid #006241;
+} */
+
+.navbar-left-section {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-logo {
+	width: 4rem;
+	margin-right: 1rem;
+}
+.menu-item {
+	font-weight: 600;
+	padding: 2rem 1rem;
+	border-bottom: 10px solid #fff;
+	cursor: pointer;
+}
+.menu-item:hover {
+	color: #006241;
+}
+.navbar-right-section {
+	display: flex;
+	align-items: center;
+}
+
+.location {
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	font-weight: 500;
+	cursor: pointer;
+	/* transition: all 0.2s; */
+}
+.location:hover {
+	color: #006241;
+}
+
+.navbar-sign ul {
+	display: flex;
+	gap: 1rem;
+}
+
+.sign-in-btn {
+	border: 1px solid black;
+	color: black;
+	background-color: #fff;
+	font-family: inherit;
+	font-weight: 500;
+	padding: 0.3rem 1rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.sign-in-btn:hover {
+	background-color: #edebe9;
+}
+
+.join-now-btn {
+	border: 1px solid black;
+	color: #fff;
+	background-color: black;
+	font-family: inherit;
+	font-weight: 500;
+	padding: 0.3rem 1rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.join-now-btn:hover {
+	background-color: #00000094;
+}
+
+@media screen and (max-width: 800px) {
+	.menu-item {
+		display: none;
+	}
+	.navbar-right-section {
+		display: none;
+	}
+}

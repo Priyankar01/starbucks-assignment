@@ -1,0 +1,59 @@
+.landing-wrapper {
+	background-image: url(../../assets/pexels-dom-j-303324.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	z-index: -10;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.landing-content {
+	margin-left: 5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.landing-content h1 {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 2.5rem;
+	margin: 0px;
+}
+
+.landing-content p {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 1.2rem;
+	margin: 0px;
+}
+.landing-content button {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 1.1rem;
+	border: 1px solid #008248;
+	background-color: #008248;
+	color: #fff;
+	border-radius: 1rem;
+	padding: 0.2rem 0.8rem;
+	cursor: pointer;
+}
+.landing-content h6 {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 1.3rem;
+	margin: 0px;
+}

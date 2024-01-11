@@ -1,0 +1,53 @@
+.started-wrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 5rem;
+}
+
+.started-wrapper h1 {
+	font-weight: 600;
+	font-family: inherit;
+	font-size: 1.7rem;
+	margin: 0px;
+}
+
+.started-list {
+	display: flex;
+	gap: 2rem;
+}
+
+.started-list a {
+	color: #008248;
+}
+.started-list a:hover {
+	text-decoration: none;
+}
+.started-list li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.started-list li h1 {
+	color: #008248;
+	font-family: inherit;
+	font-size: 1.7rem;
+	width: 2.5rem;
+	height: auto;
+	text-align: center;
+	border: 2px solid #008248;
+	border-radius: 50%;
+}
+
+.started-list li h3 {
+	text-align: center;
+  font-weight: 500;
+}
+
+.started-list li p {
+	margin: 0px;
+
+	text-align: center;
+}
