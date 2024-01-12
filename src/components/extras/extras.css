@@ -29,6 +29,11 @@
 	flex-direction: column;
 	justify-content: center;
 }
+.extras-list li div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
 .extras-list li h3 {
 	font-weight: 500;
 }
@@ -47,4 +52,37 @@
 
 .extras-list li a:hover {
 	text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+	.extras-wrapper {
+		padding: 1rem 1rem;
+	}
+
+	.extras-wrapper h1 {
+		font-size: 1.7rem;
+		font-weight: 600;
+	}
+	.extras-wrapper p {
+		width: 100%;
+	}
+	.extras-list {
+		flex-direction: column;
+		gap: 3rem;
+		padding: 0px;
+	}
+	.extras-list li {
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+	}
+	.extras-list li div {
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+	.extras-list li p {
+		margin: 0px;
+		text-align: left;
+	}
 }

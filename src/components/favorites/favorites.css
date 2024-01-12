@@ -62,3 +62,24 @@
 .favorites-list li.selected {
 	border-bottom: 5px solid #006241;
 }
+
+@media screen and (max-width: 800px) {
+	.favorites-list li {
+		font-size: 1rem;
+	}
+	.favorites-list {
+		padding: 0px;
+	}
+	.favorite-info-section {
+		flex-direction: column;
+		padding: 1rem 1rem;
+	}
+	.favorite-info-section img {
+		width: 100%;
+	}
+
+	.favorite-info-section div {
+		width: 100%;
+		text-align: center;
+	}
+}

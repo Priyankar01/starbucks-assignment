@@ -57,3 +57,13 @@ a:hover {
 	font-size: 1.3rem;
 	margin: 0px;
 }
+
+@media screen and (max-width: 800px) {
+	.landing-wrapper {
+		background-image: url(../../assets/pexels-kaique-rocha-311276.jpg);
+	}
+	.landing-content {
+		margin: 2rem;
+		padding-bottom: 10rem;
+	}
+}
